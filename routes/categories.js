@@ -35,12 +35,26 @@ router.post('/', async (req, res) => {
 
 // update One
 router.patch('/:id', (req, res) => {
+
+    if(!req.body){
+        return res.send({message : "they is not data !!!"})
+    }
+    const id = req.params.id
+    Categories.findByIdAndUpdate(id, req.body, { useFindAndModify: false }).then(data => {
+        if (!data) {
+            res.send({
+              message: `Cannot update category with id=${id}. Maybe category was not found!`
+            });
+          } else res.send({ message: "Category was updated successfully." });
+    })
     
 })
 
 // delete One
 router.delete('/:id', (req, res) => {
-    
+    Categories.findByIdAndDelete(req.params.id).then( () => {
+        res.json()
+    })
 })
 
 // 

@@ -1,13 +1,14 @@
-GET http://localhost:3000/promos
+GET http://localhost:3000/ingredients
 ###
 
 GET  http://localhost:3000/produits/601ac7313a308649146fbe02
 
 ###
 
-POST  http://localhost:3000/promos
+POST  http://localhost:3000/ingredients
 Content-Type: application/json
 
 {
-    "points" : "100"
+    "name" : "test",
+    "score" : "0"
 }

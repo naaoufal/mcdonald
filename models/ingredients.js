@@ -6,11 +6,6 @@ const ingredientsSchema = new mongoose.Schema({
         type : String,
         required : true
     },
-    produit : {
-        type : String,
-        ref : 'produits',
-        required : true
-    },
     score : {
         type : String,
         require : true

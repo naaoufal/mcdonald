@@ -10,6 +10,19 @@ const produitsSchema = new mongoose.Schema({
         type : String,
         ref : 'subcategories',
         required : true
+    },
+    ingredient : {
+        type : String,
+        ref : 'ingredients',
+        require : true
+    },
+    price : {
+        type : String,
+        required : true
+    },
+    score : {
+        type : String,
+        required : true
     }
 
 })

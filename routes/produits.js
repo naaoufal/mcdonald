@@ -34,4 +34,48 @@ async function getProduits (req, res, next) {
     next()
 }
 
+// add One
+router.post('/', async (req, res) => {
+
+    const produit = new Produits({
+        name : req.body.name,
+        subcategory : req.body.subcategory,
+        ingredient : req.body.ingredient,
+        price : req.body.price,
+        score : req.body.score
+    })
+
+    try {
+        const newproduit = await produit.save()
+        res.json(newproduit)
+    } catch (error) {
+        res.json({message : error.message})
+    }
+})
+
+// edit ingredient
+router.patch('/:id', (req, res) => {
+
+    if(!req.body){
+        return res.send({message : "they is not data !!!"})
+    }
+    const id = req.params.id
+    Produits.findByIdAndUpdate(id, req.body, { useFindAndModify: false }).then(data => {
+        if (!data) {
+            res.send({
+              message: `Cannot update product with id=${id}. Maybe product was not found!`
+            });
+          } else res.send({ message: "product was updated successfully." });
+    })
+    
+})
+
+// delete One
+router.delete('/:id', (req, res) => {
+    Produits.findByIdAndDelete(req.params.id).then( () => {
+        res.json()
+    })
+})
+
+
 module.exports = router

@@ -23,7 +23,6 @@ router.post('/', async (req, res) => {
 
     const ingredient = new Ingredients({
         name : req.body.name,
-        produit : req.body.produit,
         score : req.body.score
     })
 
@@ -50,5 +49,29 @@ async function getIngredients (req, res, next) {
     res.ingredient = ingredient
     next()
 }
+
+// edit ingredient
+router.patch('/:id', (req, res) => {
+
+    if(!req.body){
+        return res.send({message : "they is not data !!!"})
+    }
+    const id = req.params.id
+    Ingredients.findByIdAndUpdate(id, req.body, { useFindAndModify: false }).then(data => {
+        if (!data) {
+            res.send({
+              message: `Cannot update ingredient with id=${id}. Maybe ingredient was not found!`
+            });
+          } else res.send({ message: "ingredient was updated successfully." });
+    })
+    
+})
+
+// delete One
+router.delete('/:id', (req, res) => {
+    Ingredients.findByIdAndDelete(req.params.id).then( () => {
+        res.json()
+    })
+})
 
 module.exports = router

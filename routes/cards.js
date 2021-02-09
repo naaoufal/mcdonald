@@ -73,7 +73,7 @@ router.delete('/:id', (req, res) => {
 // 
 
 
-// call category by id:
+// call card by id:
 async function getCardById (req, res, next) {
     let card;
     try {

@@ -69,4 +69,30 @@ async function getSubcategoryByCategoryId(req, res, next) {
     next()
 }
 
+
+// update One
+router.patch('/:id', (req, res) => {
+
+    if(!req.body){
+        return res.send({message : "they is not data !!!"})
+    }
+    const id = req.params.id
+    Subcategories.findByIdAndUpdate(id, req.body, { useFindAndModify: false }).then(data => {
+        if (!data) {
+            res.send({
+              message: `Cannot update subcategory with id=${id}. Maybe subcategory was not found!`
+            });
+          } else res.send({ message: "Subcategory was updated successfully." });
+    })
+    
+})
+
+// delete One
+router.delete('/:id', (req, res) => {
+    Subcategories.findByIdAndDelete(req.params.id).then( () => {
+        res.json()
+    })
+})
+
+
 module.exports = router
