@@ -60,8 +60,8 @@ subcategories.addEventListener('click', (e) => {
         }).then(data => {
             data.map(produits => {
                 if(id == produits.subcategory){
-                    $('#produits').append(`<button data-toggle="modal" data-target="#exampleModalLong" class="btn btn-warning" data-id=${produits.ingredient} id="optPro" value="${produits._id}">${produits.name}</button>
-                        <input type="hidden" data-id=${produits._id} id="inpPro" value="${produits.name}">
+                    $('#produits').append(`<button data-toggle="modal" data-target="#exampleModalLong" class="btn btn-warning" data-id=${produits.ingredient} id="optPro" value="${produits.name}">${produits.name}</button>
+                        <input type="hidden" data-id=${produits._id} id="inpPro" value="${produits._id}">
                         <br>`)
                 }
             })
@@ -82,19 +82,21 @@ produits.addEventListener('click', (e) =>{
     let pressPro = e.target.id == 'inpPro'
     let idpro = e.target.dataset.id
 
-    //console.log(id, idpro)
+    const tt = document.querySelector('#inpPro').value
+
+    console.log(tt)
 
     // clear the div field
     isModalEmpty()
     //isEmptyIng()
 
-    if(pressPro || pressIngredient){
+    if(pressIngredient){
         fetch(`http://localhost:3000/produits`).then(res => {
             return res.json()
         }).then(data => {
             data.map(produit => {
-                if(idpro == produit.ingredient){
-                    //console.log(produit.ingredient)
+                if(tt == produit._id){
+                    //console.log(produit.name)
                     fetch(`http://localhost:3000/ingredients`).then(res => {
                         return res.json()
                     }).then(data => {
@@ -141,7 +143,6 @@ produits.addEventListener('click', (e) =>{
         })
     }
 })
-
 
 
 function fetchTables () {
@@ -227,7 +228,7 @@ $('#optiontest').click(function() {
 
     const totalPrice = currentPrice * qt
 
-    const totalName = nom + ingredient
+    const totalName = ingredient
 
     // console.log(nom + " + " + ingredient)
     console.log(inpScore)
