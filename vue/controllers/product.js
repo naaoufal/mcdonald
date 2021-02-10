@@ -11,7 +11,7 @@ async function addProduct() {
       subcategory: id_sub_category,
       ingredient: id_ingrediant,
       price: productPrice,
-      score: "0",
+      score: "0"
     })
     .then((res) => {
       window.location.href = "./dashboard.html";
