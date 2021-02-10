@@ -49,6 +49,7 @@ subcategories.addEventListener('click', (e) => {
 
     let pressProduct = e.target.id == 'optSub'
     const id = e.target.dataset.id
+    //console.log(id)
 
     // clear the div field:
     isEmptyPro()
@@ -59,7 +60,7 @@ subcategories.addEventListener('click', (e) => {
         }).then(data => {
             data.map(produits => {
                 if(id == produits.subcategory){
-                    $('#produits').append(`<button data-toggle="modal" data-target="#exampleModalLong" class="btn btn-warning" data-id=${produits.ingredient} id="optPro" value="${produits.name}">${produits.name}</button>
+                    $('#produits').append(`<button data-toggle="modal" data-target="#exampleModalLong" class="btn btn-warning" data-id=${produits.ingredient} id="optPro" value="${produits._id}">${produits.name}</button>
                         <input type="hidden" data-id=${produits._id} id="inpPro" value="${produits.name}">
                         <br>`)
                 }
@@ -81,23 +82,26 @@ produits.addEventListener('click', (e) =>{
     let pressPro = e.target.id == 'inpPro'
     let idpro = e.target.dataset.id
 
+    //console.log(id, idpro)
+
     // clear the div field
     isModalEmpty()
     //isEmptyIng()
 
-    if(pressIngredient || pressPro){
+    if(pressPro || pressIngredient){
         fetch(`http://localhost:3000/produits`).then(res => {
             return res.json()
         }).then(data => {
             data.map(produit => {
                 if(idpro == produit.ingredient){
-                    //console.log(produit.name)
+                    //console.log(produit.ingredient)
                     fetch(`http://localhost:3000/ingredients`).then(res => {
                         return res.json()
                     }).then(data => {
                         fetchTables()
                         data.map(ingredients => {
-                            if(id == ingredients._id){
+                            //console.log(ingredients)
+                            if(ingredients._id == id){
                                 $('.modal-body').append(`
                                     <div id="mod0"><input name="nameProduct" type="hidden" readonly="readonly" id="nam" value="${produit.name}"><input type="hidden" id="sco" name="sco" value="${produit.score}"><input type="hidden" id="pri" name="price" value="${produit.price}"></div>
                                     <div id="mod1">
@@ -139,20 +143,6 @@ produits.addEventListener('click', (e) =>{
 })
 
 
-// test area
-// function fetchPromos() {
-//     fetch("http://localhost:3000/promos").then(res => {
-//         return res.json()
-//     }).then(data => {
-//         data.map(info => {
-//             console.log(info._id)
-//             $('#mody').append(`<option value="${info._id}">${info._id}</option>`)
-//         })
-//     })
-// }
-
-
-
 
 function fetchTables () {
     fetch(`http://localhost:3000/tables`).then(res => {
@@ -184,25 +174,6 @@ function qrcodefunction () {
         })
     })
 }
-
-
-// check for code promos
-// function promoCode () {
-//     var check = document.querySelector('#promy').checked
-//     if(!check){
-//         $('#pro').show()
-//         var val = document.querySelector('#promo').value
-//         console.log(val)
-//         // test area
-//         fetch("http://localhost:3000/promos").then(res => {
-//             return res.json()
-//         }).then(data => {
-//             console.log(data)
-//         })
-//     } else {
-//         $('#pro').hide()
-//     }
-// }
 
 // check for client if he have a fidele card:
 function checkBoxy () {
