@@ -139,21 +139,6 @@ produits.addEventListener('click', (e) =>{
 })
 
 
-// test area
-// function fetchPromos() {
-//     fetch("http://localhost:3000/promos").then(res => {
-//         return res.json()
-//     }).then(data => {
-//         data.map(info => {
-//             console.log(info._id)
-//             $('#mody').append(`<option value="${info._id}">${info._id}</option>`)
-//         })
-//     })
-// }
-
-
-
-
 function fetchTables () {
     fetch(`http://localhost:3000/tables`).then(res => {
         return res.json()
@@ -185,24 +170,6 @@ function qrcodefunction () {
     })
 }
 
-
-// check for code promos
-// function promoCode () {
-//     var check = document.querySelector('#promy').checked
-//     if(!check){
-//         $('#pro').show()
-//         var val = document.querySelector('#promo').value
-//         console.log(val)
-//         // test area
-//         fetch("http://localhost:3000/promos").then(res => {
-//             return res.json()
-//         }).then(data => {
-//             console.log(data)
-//         })
-//     } else {
-//         $('#pro').hide()
-//     }
-// }
 
 // check for client if he have a fidele card:
 function checkBoxy () {

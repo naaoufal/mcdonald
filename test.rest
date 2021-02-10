@@ -1,4 +1,4 @@
-GET http://localhost:3000/ingredients
+GET http://localhost:3000/logs
 ###
 
 GET  http://localhost:3000/produits/601ac7313a308649146fbe02
