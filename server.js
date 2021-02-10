@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const cors = require('cors')
+const cors = require("cors");
 const path = require("path");
 const app = express();
 
@@ -8,7 +8,10 @@ const app = express();
 app.use(express.static(path.join(__dirname, "vue")));
 
 // connect our database:
-mongoose.connect("mongodb://localhost/mcdonald", { useNewUrlParser: false });
+mongoose.connect("mongodb://localhost/mcdonald", {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 const db = mongoose.connection;
 
 db.on("error", (error) => console.error(error));
@@ -16,7 +19,7 @@ db.once("open", () => console.log("Connected to DataBase !!!"));
 
 app.use(express.json());
 
-app.use(cors())
+app.use(cors());
 // use routes
 const categoriesroute = require("./routes/categories.js");
 app.use("/categories", categoriesroute);

@@ -45,6 +45,7 @@ async function fetchSubCategories() {
       console.log(error);
     });
 }
+fetchSubCategories();
 
 //getting id after clicking edit
 $(document).on("click", ".editSubCat", function (e) {

@@ -14,6 +14,32 @@ async function addingrediant() {
       console.log(err);
     });
 }
+// get all ingredients
+
+async function fetchIngredients() {
+  await axios.get("http://localhost:3000/ingredients").then((res) => {
+    const data = res.data;
+    for (let i = 0; i < data.length; i++) {
+      $("#ingrediant_tbody").append(`
+                <tr>
+                    <td>${data[i].name}</td>
+                    <td>
+                    <button class="btn btn-success editIngredinat"  data-toggle="modal"
+                    data-target=".bd-example-modalEditIngrediant-lg" data-id="${data[i]._id}">Edit</button>
+                    <button class="btn btn-danger"  onclick="deleteIngrediant('${data[i]._id}')" value="${data[i]._id}">Delete</button>
+                    </td>
+                </tr>
+            `);
+      $("#ingrediant_list").append(
+        `<option value="${data[i]._id}">${data[i].name}</option>`
+      );
+      $("#ingrediant_listP").append(
+        `<option value="${data[i]._id}">${data[i].name}</option>`
+      );
+    }
+  });
+}
+fetchIngredients();
 
 // delete an ingredient
 async function deleteIngrediant(id) {

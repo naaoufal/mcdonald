@@ -27,24 +27,22 @@ async function getdata() {
 getdata();
 
 function printCommnad(name, price, card) {
-  var doc = new jsPDF();
-
+  const doc = new jsPDF();
   doc.fromHTML(
-    `   
-        <div style="width:122px;display:flex;">
-          <h1>Order Details</h1>
-          <hr style="color:black;">
-          <h3>Product Name</h3>
-          <h4 style="color: blue;"> ${name}</h4>
-          <h3> Card Number</h3>
-          <h4 style="color: blue;">${card}</h4>
-          <h3>Price </h3>
-          <h4 style="color: blue;">${price} DH</h4>
-        </div>
-        
+    `
+    
+        <h1 style="margin-left:400px">Order Details</h1>
+        <h2 style="margin-left:400px">Product Name : ${name}</h2>
+        <h2 style="margin-left:400px"> Card Number : ${card}
+        </h2>
+        <h3 style="color: blue; margin-left:400px">Price : ${price} DH
+        </h3>
+
+
     `,
     9,
     9
   );
   doc.save("a4.pdf");
 }
+//"order information" + "\n" + name + "\n" + price, 9, 9
