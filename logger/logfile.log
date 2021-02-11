@@ -201,6 +201,9 @@
 {"message":" Command found","level":["info"],"Date":"10/2/2021 18:28:35"}
 {"message":" Command found","level":["info"],"Date":"10/2/2021 18:28:38"}
 {"message":" Command found","level":["info"],"Date":"10/2/2021 18:28:42"}
+<<<<<<< HEAD
+{"message":" Command found","level":["info"],"Date":"10/2/2021 20:50:9"}
+=======
 >>>>>>> 274cdfd20481742e2e618c8d61d5448c36e4ce77
 {"message":"Command added","level":["info"],"Date":"10/2/2021 20:46:12"}
 {"message":"Command added","level":["info"],"Date":"10/2/2021 22:27:31"}
@@ -212,6 +215,7 @@
 {"message":"Command added","level":["info"],"Date":"10/2/2021 22:27:31"}
 {"message":"Command added","level":["info"],"Date":"10/2/2021 22:27:31"}
 {"message":"Command added","level":["info"],"Date":"10/2/2021 22:27:31"}
+<<<<<<< HEAD
 {"message":"Command added","level":["info"],"Date":"10/2/2021 23:4:12"}
 {"message":"Command added","level":["info"],"Date":"10/2/2021 23:4:12"}
 {"message":"Command added","level":["info"],"Date":"10/2/2021 23:4:12"}
@@ -223,3 +227,10 @@
 {"message":"Command added","level":["info"],"Date":"10/2/2021 23:4:12"}
 {"message":"Command added","level":["info"],"Date":"11/2/2021 19:8:48"}
 {"message":"Command added","level":["info"],"Date":"11/2/2021 19:13:26"}
+=======
+>>>>>>> 59215ab6d9b2ee4ca3e0c62b703713f914bfe456
+{"message":"Command added","level":["info"],"Date":"10/2/2021 23:27:40"}
+{"message":"Command added","level":["info"],"Date":"10/2/2021 23:27:40"}
+{"message":"Command added","level":["info"],"Date":"10/2/2021 23:27:40"}
+{"message":"Command added","level":["info"],"Date":"10/2/2021 23:47:35"}
+>>>>>>> 5aced66a146f8d12b09306c728bfa5e1f619c05a

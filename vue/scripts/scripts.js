@@ -49,6 +49,7 @@ subcategories.addEventListener('click', (e) => {
 
     let pressProduct = e.target.id == 'optSub'
     const id = e.target.dataset.id
+    //console.log(id)
 
     // clear the div field:
     isEmptyPro()
@@ -101,7 +102,8 @@ produits.addEventListener('click', (e) =>{
                     }).then(data => {
                         fetchTables()
                         data.map(ingredients => {
-                            if(id == ingredients._id){
+                            //console.log(ingredients)
+                            if(ingredients._id == id){
                                 $('.modal-body').append(`
                                     <div id="mod0"><input name="nameProduct" type="hidden" readonly="readonly" id="nam" value="${produit.name}"><input type="hidden" id="sco" name="sco" value="${produit.score}"><input type="hidden" id="pri" name="price" value="${produit.price}"></div>
                                     <div id="mod1">
@@ -173,7 +175,6 @@ function qrcodefunction () {
         })
     })
 }
-
 
 // check for client if he have a fidele card:
 function checkBoxy () {

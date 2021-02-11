@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "6023437f632f3f1144974dd2"
+  },
+  "name": "Maxi Best of",
+  "category": "60234367632f3f1144974dd1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6023438d632f3f1144974dd3"
+  },
+  "name": "Best of",
+  "category": "60234367632f3f1144974dd1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602343a5632f3f1144974dd4"
+  },
+  "name": "Happy Meal",
+  "category": "60234367632f3f1144974dd1",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6023a2ba8b2400abdcf314ab"
+  },
+  "name": "Empty(menu)",
+  "category": "Select Your Category",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241a75b1ef199870a6222b"
+  },
+  "name": "Empty(sandwish)",
+  "category": "Select Your Category",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241ab6b1ef199870a6222c"
+  },
+  "name": "Menu chesse",
+  "category": "60241a14b1ef199870a62225",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241acfb1ef199870a6222d"
+  },
+  "name": "Menu Burger",
+  "category": "60241a14b1ef199870a62225",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241ae7b1ef199870a6222e"
+  },
+  "name": "McNuggets",
+  "category": "60241a14b1ef199870a62225",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241b00b1ef199870a6222f"
+  },
+  "name": "Empty (petit faim)",
+  "category": "60241a14b1ef199870a62225",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241b14b1ef199870a62230"
+  },
+  "name": "Empty(salade)",
+  "category": "60241a24b1ef199870a62226",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241b4eb1ef199870a62231"
+  },
+  "name": "McFlurry",
+  "category": "60241a2fb1ef199870a62227",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241b67b1ef199870a62232"
+  },
+  "name": "Empty(dessert)",
+  "category": "60241a2fb1ef199870a62227",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241b7bb1ef199870a62233"
+  },
+  "name": "Soda",
+  "category": "60241a39b1ef199870a62228",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241b8cb1ef199870a62234"
+  },
+  "name": "Cafe",
+  "category": "60241a39b1ef199870a62228",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241b9eb1ef199870a62235"
+  },
+  "name": "Empty(frite)",
+  "category": "60241a44b1ef199870a62229",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241bb8b1ef199870a62236"
+  },
+  "name": "Empty(sause)",
+  "category": "60241a4eb1ef199870a6222a",
+  "__v": 0
+}]
