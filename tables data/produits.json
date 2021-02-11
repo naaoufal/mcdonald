@@ -1,0 +1,241 @@
+[{
+  "_id": {
+    "$oid": "60241bffb1ef199870a62237"
+  },
+  "name": "Boite a partager",
+  "subcategory": "6023a2ba8b2400abdcf314ab",
+  "ingredient": "60234442632f3f1144974dd6",
+  "price": "120",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241c3ab1ef199870a62238"
+  },
+  "name": "Maxi Best of (Hamburgers)",
+  "subcategory": "6023437f632f3f1144974dd2",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "230",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241c8cb1ef199870a62239"
+  },
+  "name": "Maxi Best of (Chesseburger)",
+  "subcategory": "6023437f632f3f1144974dd2",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "231",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241cd0b1ef199870a6223a"
+  },
+  "name": "Maxi Best of (fishburger)",
+  "subcategory": "6023437f632f3f1144974dd2",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "256",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241d0ab1ef199870a6223b"
+  },
+  "name": "Maxi Best of (Chickenburger)",
+  "subcategory": "6023437f632f3f1144974dd2",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "150",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602438f22b6233590c95731e"
+  },
+  "name": "best Of (Hambuerger)",
+  "subcategory": "6023438d632f3f1144974dd3",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "134",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246db5d0cadf3fcc8f2a89"
+  },
+  "name": "best Of (Cheesebuerger)",
+  "subcategory": "6023438d632f3f1144974dd3",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "112",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246dd9d0cadf3fcc8f2a8a"
+  },
+  "name": "best Of (Fishbuerger)",
+  "subcategory": "6023438d632f3f1144974dd3",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "432",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246e02d0cadf3fcc8f2a8b"
+  },
+  "name": "best Of (Chickenbuerger)",
+  "subcategory": "6023438d632f3f1144974dd3",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "123",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246e69d0cadf3fcc8f2a8c"
+  },
+  "name": "happy Meal(Hamburger)",
+  "subcategory": "602343a5632f3f1144974dd4",
+  "ingredient": "602418bdb1ef199870a62219",
+  "price": "122",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246e94d0cadf3fcc8f2a8d"
+  },
+  "name": "happy Meal(Cheeseburger)",
+  "subcategory": "602343a5632f3f1144974dd4",
+  "ingredient": "602418bdb1ef199870a62219",
+  "price": "123",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246eb0d0cadf3fcc8f2a8e"
+  },
+  "name": "happy Meal(Fishburger)",
+  "subcategory": "602343a5632f3f1144974dd4",
+  "ingredient": "602418bdb1ef199870a62219",
+  "price": "321",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246ed4d0cadf3fcc8f2a8f"
+  },
+  "name": "happy Meal(Chickenburger)",
+  "subcategory": "602343a5632f3f1144974dd4",
+  "ingredient": "602418bdb1ef199870a62219",
+  "price": "200",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246f7ad0cadf3fcc8f2a91"
+  },
+  "name": "Grand McWrap",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "122",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246fabd0cadf3fcc8f2a92"
+  },
+  "name": "Recette fromage fondu",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "344",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246fc9d0cadf3fcc8f2a93"
+  },
+  "name": "Big chicken",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "100",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246ff6d0cadf3fcc8f2a94"
+  },
+  "name": "Double BigMac",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "150",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60247054d0cadf3fcc8f2a95"
+  },
+  "name": "Royal Chesse",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "100",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60247076d0cadf3fcc8f2a96"
+  },
+  "name": "Big Tasty",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "133",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60247099d0cadf3fcc8f2a97"
+  },
+  "name": "McChicken",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "45",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602470d3d0cadf3fcc8f2a98"
+  },
+  "name": "Filet on Fish",
+  "subcategory": "60241a75b1ef199870a6222b",
+  "ingredient": "60246f49d0cadf3fcc8f2a90",
+  "price": "122",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60247154d0cadf3fcc8f2a99"
+  },
+  "name": "Cheese Burger",
+  "subcategory": "60241ab6b1ef199870a6222c",
+  "ingredient": "6024187fb1ef199870a62218",
+  "price": "100",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60247199d0cadf3fcc8f2a9a"
+  },
+  "name": "Salade ilaliene",
+  "subcategory": "60241b14b1ef199870a62230",
+  "ingredient": "60241942b1ef199870a6221d",
+  "price": "67",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602471ddd0cadf3fcc8f2a9b"
+  },
+  "name": "McFlurry",
+  "subcategory": "60241b4eb1ef199870a62231",
+  "ingredient": "60241962b1ef199870a6221e",
+  "price": "100",
+  "score": "0",
+  "__v": 0
+}]

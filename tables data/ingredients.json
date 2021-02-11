@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "60234442632f3f1144974dd6"
+  },
+  "name": "12 chicken McNuggets +3 Chicken Sticks-6 Croquettes fromage poivorn",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6024187fb1ef199870a62218"
+  },
+  "name": "sandwish choisi + frite + boison soda",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602418bdb1ef199870a62219"
+  },
+  "name": "sandwish choisi + mini salade + desert+ frite + boisson soda",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602418e3b1ef199870a6221a"
+  },
+  "name": "sandwish choisi + frite + boison soda",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6024190cb1ef199870a6221b"
+  },
+  "name": "Nuggets choisi + frite + boison soda",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6024192eb1ef199870a6221c"
+  },
+  "name": "wrap + frite + boisson soda",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241942b1ef199870a6221d"
+  },
+  "name": "salade choisi",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60241962b1ef199870a6221e"
+  },
+  "name": "McFlurry choisi",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6024197db1ef199870a6221f"
+  },
+  "name": "Milk-shake choisi",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602419a2b1ef199870a62220"
+  },
+  "name": "Browinie choisi",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602419bcb1ef199870a62221"
+  },
+  "name": "Boisson choisi",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602419d3b1ef199870a62222"
+  },
+  "name": "frite choisi",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602419e8b1ef199870a62223"
+  },
+  "name": "souse choisi",
+  "score": "0",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60246f49d0cadf3fcc8f2a90"
+  },
+  "name": "sandwish choisi ",
+  "score": "0",
+  "__v": 0
+}]
