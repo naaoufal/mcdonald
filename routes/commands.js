@@ -46,7 +46,7 @@ router.get('/', async (req, res) => {
             Date: day + "/" + month + "/" + year + " " + hour + ":" + minute + ":" + second,
         })
         log({
-            file: 'app.js',
+            file: 'server.js',
             line: '10',
             info: "Command Found",
             type: 'critical'
@@ -59,7 +59,7 @@ router.get('/', async (req, res) => {
             Date: day + "/" + month + "/" + year + " " + hour + ":" + minute + ":" + second,
         })
         log({
-            file: 'app.js',
+            file: 'server.js',
             line: '10',
             info: error,
             type: 'critical'
@@ -86,7 +86,7 @@ router.post('/', async (req, res) => {
             Date: day + "/" + month + "/" + year + " " + hour + ":" + minute + ":" + second,
         });
         log({
-            file: 'app.js',
+            file: 'server.js',
             line: '10',
             info: "Command added",
             type: 'critical'
@@ -99,7 +99,7 @@ router.post('/', async (req, res) => {
             Date: day + "/" + month + "/" + year + " " + hour + ":" + minute + ":" + second,
         });
         log({
-            file: 'app.js',
+            file: 'server.js',
             line: '10',
             info: error,
             type: 'critical'
